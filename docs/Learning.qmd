@@ -1,0 +1,34 @@
+---
+title: "Reproducible Document"
+author: "Emma"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+## Setup
+
+```{r setup}
+library(tidyverse)
+
+```
+
+
+## Writing R code 
+
+```{r}
+2+2
+
+```
+
+## About me
+- Emma
+- SDU
+
+My name is **Emma** and i live in *odense*. 
+
+## Simple code
+```{r}
+3*3
+```
+
