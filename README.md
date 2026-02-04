@@ -4,8 +4,7 @@ Emma - learning R
 
 # LearningR:
 
-Hi, i am Emma
-
+Yes again
 TODO: Give a brief description of what your project is about
 
 This project...
