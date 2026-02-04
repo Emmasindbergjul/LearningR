@@ -61,4 +61,13 @@ ggplot(post_meal_data, aes( x = BMI)) +
 
 In figure @fig-bmi-histo you can see the BMI in a histogram
 
+## Exercise: Discrete plots 
 
+```{r}
+#| fig-cap: "Barplot of Group"
+#| label: fig-group-bar
+ggplot(post_meal_data, aes(x = Group)) +
+  geom_bar()
+
+```
+See @fig-group-bar above for a cool plot!
