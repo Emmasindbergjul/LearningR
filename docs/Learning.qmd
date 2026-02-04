@@ -49,3 +49,16 @@ glimpse(post_meal_data)
 
 ```
 
+## Plot one continues variable 
+```{r}
+#| fig-cap: "Distribution of BMI."
+#| label: fig-bmi-histo
+
+ggplot(post_meal_data, aes( x = BMI)) +
+  geom_histogram()
+
+```
+
+In figure @fig-bmi-histo you can see the BMI in a histogram
+
+
